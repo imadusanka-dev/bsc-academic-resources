@@ -4,7 +4,7 @@ function Appfooter() {
     return(
         <footer className="appfooter">
             <div className="footercontainer">
-                <p>Made with<span style={{"font-size":"20px","color":"red"}}> &hearts;</span></p>
+                <a href={"https://github.com/isurum95"}>Made with<span style={{"fontSize":"20px","color":"red"}}> &hearts;</span></a>
             </div>
         </footer>
     );

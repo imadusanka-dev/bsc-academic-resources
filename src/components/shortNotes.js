@@ -14,9 +14,7 @@ class ShortNotes extends Component {
         Tabletop.init({
             key: '1HkDdq4OWwQblWEv9wJCEFve2XMulVyiEOqIX0ZTh43k',
             callback: sheetData => {
-                this.setState({data: sheetData},()=>{
-                    console.log(this.state.data)
-                });
+                this.setState({data: sheetData});
             },
             simpleSheet: true,
         });
