@@ -7,13 +7,20 @@ class PastPapers extends Component {
     }
     render() {
         return (
-            <div className="container">
-
+            <div className="container app">
                 <Link to='/'>
                     <i className="fas fa-arrow-circle-left"></i>
                     Back
                 </Link>
-            <p>Past Papers</p>
+                <br/>
+                <div className="card">
+                    <div className="card-header">
+                        Past Papers
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <p>Updating..</p>
+                    </ul>
+                </div>
             </div>
         );
     }

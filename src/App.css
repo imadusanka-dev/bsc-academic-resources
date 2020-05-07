@@ -2,3 +2,21 @@
   text-align: center;
 }
 
+.appfooter{
+  background-color: #e3f2fd;
+  position:fixed;
+  height: 40px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footerContainer{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+

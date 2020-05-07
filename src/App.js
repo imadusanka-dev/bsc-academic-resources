@@ -7,6 +7,7 @@ import Navbar from "./components/navBar";
 import HomePage from "./components/homePage";
 import PastPapers from "./components/pastPapers";
 import ShortNotes from "./components/shortNotes";
+import Appfooter from "./components/appFooter";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route path='/pastpapers' component={PastPapers}/>
               <Route path='/shortnotes' component={ShortNotes}/>
           </Switch>
+            <Appfooter/>
         </div>
       </Router>
   );
