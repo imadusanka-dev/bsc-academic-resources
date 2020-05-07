@@ -28,6 +28,8 @@ class ShortNotes extends Component {
                     <li className="list-group-item"><a href={shortnote.link}>{shortnote.name}</a></li>
                 );
             });
+        }else{
+            shortnotes = "Loading.."
         }
 
         return (
